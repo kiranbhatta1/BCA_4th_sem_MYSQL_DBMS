@@ -60,6 +60,9 @@ CREATE TABLE <table_name> (
     atrribute_n datatype_n contraint,
     CONSTRAINT constraint_name constraint_type(attribute_name)
 );
+
+
+
 -- In my sql command line
 CREATE TABLE student (
     stud_id INT NOT NULL,
@@ -71,4 +74,12 @@ CREATE TABLE student (
 );
 --- Output: In your MYSQl
 --*************************************************************************
+--6. To describe data base table.
+ --syntax:
+ desc <name>;
+-- In command line
+desc student;
+-- Output: In your MYSql
+--*************************************************************************
+
 
