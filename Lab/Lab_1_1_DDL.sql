@@ -80,6 +80,9 @@ CREATE TABLE student (
 -- In command line
 desc student;
 -- Output: In your MYSql
---*************************************************************************
+--************************************************************************
+--7. To alter Table (add/modify)
+ --Syntax:
+alter table <table_name> (add/modify)
 
 
